@@ -45,6 +45,7 @@ class CExtractor {
 			$this->_set[$i] = $this->_min + $i;
 		}
 	}
+	
 	private function init_ext() {
 		$this->_ext = array();
 	}
