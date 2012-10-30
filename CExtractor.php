@@ -1,6 +1,6 @@
 <?php
 
-
+// class for generic extraction
 class CExtractor {
 	
 	// properties
