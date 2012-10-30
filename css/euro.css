@@ -1,0 +1,29 @@
+/* default font family, size, bg and color */
+body {
+	background-color : blue;
+	color: rgb(200,200,200);
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 24pt;
+}
+
+div.key ul, div.key li {
+	display: inline-block;
+}
+
+div.key li {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	width : 50px;
+	border-radius :10px;
+	text-align : center;
+}
+
+div.key ul.numbers li {
+	background-color:lime;
+	color: navy;
+}
+div.key ul.stars li {
+	background-color:yellow;
+	color: navy;
+}
