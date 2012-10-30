@@ -1,14 +1,12 @@
 <?php
-$numbers = array(2,3,11,16,44);
 
-$stars = array();
-$stars[] = 1;
-$stars[] = 3;
+include_once 'CExtractor.php';
 
-// $stars = array(1,3);
+$ne = new CExtractor(5,1,50);
+$ns = new CExtractor(2,1,11);
 
-// $stars[0] = 1; $stars[1] = 3;
-
+$numbers = $ne->extract();
+$stars   = $ns->extract();
 
 function keyAsHTML($n,$s) {
 	$html = "";
